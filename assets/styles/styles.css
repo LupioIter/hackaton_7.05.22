@@ -452,6 +452,7 @@ body {
         "intro"
         "about"
         "services"
+        "result2"
         "gallery"
         "projects"
         "certificates"
@@ -1719,4 +1720,32 @@ body {
     .footer {
         grid-template-columns: minmax(1rem, 1fr) minmax(auto, 748px) minmax(1rem, 1fr);
     }
+}
+
+
+
+/* менторы */
+.result2 {
+    grid-area: result2;
+    margin-top: 10px;
+    padding: 0 7%;
+}
+
+.container2 {
+    display: flex;
+}
+
+.box2 {
+    display: grid;
+    margin-right: 1.5%;
+}
+
+.box__photo2 {
+    margin-right: 5%;
+
+}
+
+.box__photo-photo2 {
+    width: 180px;
+    height: 250px;
 }
