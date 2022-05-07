@@ -164,9 +164,9 @@ body {
     transform: scale(1.2, 1.2);
 }
 
-.menu__list li:hover>a {
+/* .menu__list li:hover>a {
     color: rgb(251 185 21);
-}
+} */
 
 .menu__list li:not(:last-of-type) {
     margin-right: 50px;
