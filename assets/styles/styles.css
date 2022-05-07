@@ -1698,6 +1698,17 @@ body {
     text-align: center;
 }
 
+.footer__contacts {
+    align-self: center;
+    width: 217px;
+}
+
+.footer__info {
+    align-self: center;
+    width: 150px;
+    text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
     .footer {
         grid-template-columns: minmax(1rem, 1fr) minmax(auto, 994px) minmax(1rem, 1fr);
