@@ -1085,6 +1085,32 @@ body {
     box-shadow: 0 5px 15px rgba(114, 101, 100, 0.8);
 }
 
+.reviews {
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    align-content: start;
+}
+
+.person_reviews {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.foto-name_reviews {
+    display: grid;
+    justify-items: center;
+}
+
+.foto_reviews {
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     .projects {
         grid-template-columns: minmax(1rem, 1fr) minmax(auto, 994px) minmax(1rem, 1fr);
