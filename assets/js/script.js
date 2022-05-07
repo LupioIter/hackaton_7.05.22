@@ -34,6 +34,29 @@ function viewImages() {
 }
 viewImages();
 
+
+// названия профессий
+let jobName = new Array();
+let t = 0;
+
+jobName[0] = `Стань АРБОРИСТОМ`;
+jobName[1] = `Стань ХУДОЖНИКОМ`;
+jobName[2] = `Стань КОСМОНАВТОМ`;
+jobName[3] = `Стань VR-ДИЗАЙНЕРОМ`;
+jobName[4] = `Стань ИСТОРИКОМ`;
+
+function viewJobName() {
+  document.querySelector(".about__typing").innerHTML = jobName[t];
+  t++;
+  if (t == jobName.length) {
+    t = 0;
+  }
+  setTimeout("viewJobName()", 5000);
+}
+viewJobName();
+
+
+
 //анимация для отзывов
 //картинки
 let reviewImages = new Array();
