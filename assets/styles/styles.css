@@ -164,7 +164,7 @@ body {
     transform: scale(1.2, 1.2);
 }
 
-.menu__list li:hover > a {
+.menu__list li:hover>a {
     color: rgb(251 185 21);
 }
 
@@ -943,11 +943,10 @@ body {
     margin-bottom: 0;
     grid-area: projects;
     display: grid;
-    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 1200px) minmax(1rem, 1fr);
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 600px) minmax(auto, 600px) minmax(1rem, 1fr);
     grid-template-rows: unset;
     grid-template-areas:
-        ". projects__content ."
-        ". result .";
+        ". projects__content result .";
 }
 
 .projects__content {
@@ -1071,6 +1070,7 @@ body {
     margin-top: 70px;
     display: flex;
     flex-direction: column;
+    padding-top: 30%;
 }
 
 .result .subtitle {
@@ -1107,7 +1107,7 @@ body {
 
 .reviews {
     display: grid;
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+    /* grid-template-rows: 1fr 3fr 3fr 3fr; */
     align-content: start;
 }
 
