@@ -334,7 +334,7 @@ body {
     }
 
     .menu__list li {
-        margin: 0px 0px 50px 0px;        
+        margin: 0px 0px 50px 0px;
     }
 
     .menu__list li:not(:last-of-type) {
@@ -744,6 +744,8 @@ body {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 1200px) minmax(1rem, 1fr);
     grid-template-areas:
         ". about__content .";
+    /* background-color: rgb(255, 233, 64); */
+    background-color: #baa8a61f;
 }
 
 .about__content {
@@ -782,16 +784,17 @@ body {
 
 .container__about-photo {
     grid-area: container__about-photo;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .about-photo {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid #ac9492;
+    /* border: 1px solid #ac9492; */
     padding: 3%;
+    /* background-color: #9233281f; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -1101,6 +1104,43 @@ body {
     opacity: 1;
     box-shadow: 0 5px 15px rgba(114, 101, 100, 0.8);
 }
+
+.reviews {
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    align-content: start;
+}
+
+.person_reviews {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.foto-name_reviews {
+    display: grid;
+    justify-items: center;
+}
+
+.foto_reviews {
+    height: 60px;
+    width: 60px;
+}
+
+.template_reviews {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+    border-radius: 8px;
+}
+
+.template_reviews p {
+    margin: 25px;
+}
+
+
+
+
 
 @media screen and (max-width: 1024px) {
     .projects {
@@ -1452,7 +1492,7 @@ body {
 .contacts__title {
     margin: 0;
     color: rgb(251 185 21);
-} 
+}
 
 .contacts__text {
     margin: 0;
