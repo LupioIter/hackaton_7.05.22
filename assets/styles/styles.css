@@ -164,7 +164,7 @@ body {
     transform: scale(1.2, 1.2);
 }
 
-.menu__list li:hover > a {
+.menu__list li:hover>a {
     color: rgb(251 185 21);
 }
 
@@ -745,7 +745,7 @@ body {
     grid-template-areas:
         ". about__content .";
     /* background-color: rgb(255, 233, 64); */
-    background-color: #baa8a61f;
+    background-color: #d4f2db;
 }
 
 .about__content {
@@ -841,7 +841,7 @@ body {
     grid-area: services__content;
     display: flex;
     flex-direction: column;
-    background-color: #baa8a61f;
+    background-color: #d4f2db;
 }
 
 
@@ -943,11 +943,10 @@ body {
     margin-bottom: 0;
     grid-area: projects;
     display: grid;
-    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 1200px) minmax(1rem, 1fr);
+    grid-template-columns: minmax(1rem, 1fr) minmax(auto, 600px) minmax(auto, 600px) minmax(1rem, 1fr);
     grid-template-rows: unset;
     grid-template-areas:
-        ". projects__content ."
-        ". result .";
+        ". projects__content result .";
 }
 
 .projects__content {
@@ -1071,6 +1070,7 @@ body {
     margin-top: 70px;
     display: flex;
     flex-direction: column;
+    padding-top: 30%;
 }
 
 .result .subtitle {
@@ -1107,7 +1107,7 @@ body {
 
 .reviews {
     display: grid;
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+    /* grid-template-rows: 1fr 3fr 3fr 3fr; */
     align-content: start;
 }
 
@@ -1460,7 +1460,7 @@ body {
     }
 
     .slick-dots li.slick-active button {
-        background-color: #857776;
+        background-color: #ffce5d;
     }
 }
 
@@ -1479,8 +1479,8 @@ body {
     grid-template-columns: minmax(auto, 50%) minmax(auto, 40%) minmax(auto, 10%);
     grid-template-areas:
         "contacts__connection contacts__image contacts__social";
-    background-color: #c3e4ef;
-    border: 1px solid #857776;
+    background-color: #d4f2db;
+    border: 1px solid #ffff;
 }
 
 .contacts__connection {
@@ -1491,7 +1491,7 @@ body {
 
 .contacts__title {
     margin: 0;
-    color: rgb(251 185 21);
+    color: #ffce5d;
 }
 
 .contacts__text {
@@ -1511,7 +1511,7 @@ body {
     box-sizing: border-box;
     padding: 13px 50px 13px 13px;
     width: 80%;
-    border: 1px solid #b19b7bc9;
+    border: 1px solid #ffce5d;
 }
 
 .contacts__button {
@@ -1658,7 +1658,7 @@ body {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 1200px) minmax(1rem, 1fr);
     grid-template-areas:
         ". footer__content .";
-    background-color: #baa8a6;
+    background-color: #ffce5d;
 }
 
 .footer__content {
