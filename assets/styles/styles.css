@@ -330,7 +330,7 @@ body {
     }
 
     .menu__list li {
-        margin: 0px 0px 50px 0px;        
+        margin: 0px 0px 50px 0px;
     }
 
     .menu__list li:not(:last-of-type) {
@@ -725,6 +725,8 @@ body {
     grid-template-columns: minmax(1rem, 1fr) minmax(auto, 1200px) minmax(1rem, 1fr);
     grid-template-areas:
         ". about__content .";
+    /* background-color: rgb(255, 233, 64); */
+    background-color: #baa8a61f;
 }
 
 .about__content {
@@ -763,16 +765,17 @@ body {
 
 .container__about-photo {
     grid-area: container__about-photo;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .about-photo {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid #ac9492;
+    /* border: 1px solid #ac9492; */
     padding: 3%;
+    /* background-color: #9233281f; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -1470,7 +1473,7 @@ body {
 .contacts__title {
     margin: 0;
     color: rgb(251 185 21);
-} 
+}
 
 .contacts__text {
     margin: 0;
